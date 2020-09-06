@@ -5,7 +5,7 @@ Displays the bmp file's information such as width, lenght, bpp, padding and data
 
 ### Compilation
 ```bash
-gcc bmp_info.c A3_provided_functions.c imageManipulation.c -o bmp_info 
+gcc bmp_info.c helper_functions.c imageManipulation.c -o bmp_info 
 ```
 
 ### Running
@@ -22,7 +22,7 @@ Resizes the pixel data of an image by a scaling factor given as an argument.
 
 ### Compilation
 ``` bash
- gcc bmp_scale.c A3_provided_functions.c imageManipulation.c -o bmp_scale
+ gcc bmp_scale.c helper_functions.c imageManipulation.c -o bmp_scale
  ```
  
  ### Running
@@ -37,7 +37,7 @@ mean the background image should show through.
 
 ### Compilation
 ``` bash
- gcc bmp_collage.c A3_provided_functions.c A3_solution.c -o bmp_collage
+ gcc bmp_collage.c helper_functions.c A3_solution.c -o bmp_collage
 ```
 
 ### Running
